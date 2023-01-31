@@ -1,1 +1,42 @@
 /* Add screen styles below */
+ body {
+    background-color: azure;
+    color: #AACB73;
+ }
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+}
+
+body #pic img {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+body #pic {
+    text-align: center;
+}
